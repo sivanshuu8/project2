@@ -1,0 +1,54 @@
+header{
+	background-color: gray;
+	border-top:2px solid black;
+	border-bottom:2px solid black; 
+	font-family: 'Merriweather', serif;
+}
+#a{
+	text-align: center;
+
+}
+#b{
+
+	background-color: gray;
+
+	height: ;
+	margin: 20px 50px 20px 50px;
+	font-family: 'Merriweather', serif;
+font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+#c{
+	font-size: 1.8em;
+	padding: 10px 10px 10px 10px;
+}
+#e{
+	float: right;
+	color: #4F37C8;
+	font-size: 2em;
+	padding:10px;
+}
+
+#f{
+	background-color: gray;
+}
+
+
+@media only screen and (min-width: 750px) {
+    .gg {
+        display: none;
+        background-color: gray;
+    }
+    }
+@media (max-width: 750px)
+{
+	#e{
+    	font-size: 1.2em;
+    }
+    .tt{
+    	border-bottom: 2px solid black;
+    }
+
+}
+
