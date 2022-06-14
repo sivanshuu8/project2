@@ -1,0 +1,126 @@
+body {
+  background-color: rgb(240, 242, 242);
+  color: #7d7d7d;
+  font-family: "Inter", sans-serif;
+}
+
+.heading {
+  color: #000000;
+  text-align: center;
+  margin-right: 400px;
+  white-space: nowrap;
+  text-align: center;
+}
+.container-div {
+  display: grid;
+  grid-row-gap: 20px;
+  grid-template-columns: repeat(auto-fill);
+}
+
+.item-div {
+  border: 1px solid rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+  width: 800px;
+
+  padding: 10px 10px 0 10px;
+  border-radius: 10px;
+}
+
+.header-div {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.date-header {
+  align-self: center;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.item-div:hover {
+  box-shadow: 10px 10px 50px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sub-sub {
+  margin-left: 15px;
+}
+
+.branch {
+  color: #f50000;
+}
+
+@media only screen and (max-width: 1150px) {
+  .item-div {
+    width: 400px;
+  }
+  .job-category {
+    width: 150px;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .item-div {
+    width: 200px;
+  }
+  .job-category {
+    width: 80px;
+  }
+}
+.main-container {
+  margin: auto;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.job-category,
+.job-schedule {
+  margin-bottom: 100px;
+  margin-left: 30px;
+  margin-right: 40px;
+  width: 250px;
+  height: 200px;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  grid-template-columns: repeat(auto-fill);
+}
+.job-category-header,
+.job-schedule-header {
+  text-align: center;
+  background-color: #cccaca;
+  padding: 2px;
+  color: #000000;
+  overflow: hidden;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+ul {
+  list-style-type: none;
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+}
+.job-align {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.job-type-List {
+  padding: 10px;
+  padding-left: 0;
+  padding-right: 30px;
+}
+
+li:hover {
+  background-color: #f4f4f4;
+  overflow: hidden;
+}
+.item-div:hover .the-link {
+  color: #f50000;
+}
